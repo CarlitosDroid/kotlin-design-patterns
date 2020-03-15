@@ -1,4 +1,4 @@
-package com.carlitosdroid.creational.builder.product
+package com.carlitosdroid.creational.builder.way2.product
 
 interface HousePlan {
 

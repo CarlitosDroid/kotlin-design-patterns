@@ -1,7 +1,7 @@
-package com.carlitosdroid.creational.builder.director
+package com.carlitosdroid.creational.builder.way2.director
 
-import com.carlitosdroid.creational.builder.product.House
-import com.carlitosdroid.creational.builder.housebuilder.HouseBuilder
+import com.carlitosdroid.creational.builder.way2.housebuilder.HouseBuilder
+import com.carlitosdroid.creational.builder.way2.product.House
 
 class CivilEngineer(private val houseBuilder: HouseBuilder) {
 

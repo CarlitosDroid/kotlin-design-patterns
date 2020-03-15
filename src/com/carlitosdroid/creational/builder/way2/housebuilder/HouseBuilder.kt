@@ -1,6 +1,6 @@
-package com.carlitosdroid.creational.builder.housebuilder
+package com.carlitosdroid.creational.builder.way2.housebuilder
 
-import com.carlitosdroid.creational.builder.product.House
+import com.carlitosdroid.creational.builder.way2.product.House
 
 interface HouseBuilder {
 

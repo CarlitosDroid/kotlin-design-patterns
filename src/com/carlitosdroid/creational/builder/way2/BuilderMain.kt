@@ -1,8 +1,7 @@
-package com.carlitosdroid.creational.builder
+package com.carlitosdroid.creational.builder.way2
 
-import com.carlitosdroid.creational.builder.director.CivilEngineer
-import com.carlitosdroid.creational.builder.housebuilder.IglooHouseBuilder
-import com.carlitosdroid.creational.builder.housebuilder.TipiHouseBuilder
+import com.carlitosdroid.creational.builder.way2.director.CivilEngineer
+import com.carlitosdroid.creational.builder.way2.housebuilder.TipiHouseBuilder
 
 object BuilderMain {
     @JvmStatic
