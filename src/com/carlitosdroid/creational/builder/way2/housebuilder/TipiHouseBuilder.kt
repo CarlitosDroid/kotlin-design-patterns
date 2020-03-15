@@ -4,26 +4,34 @@ import com.carlitosdroid.creational.builder.way2.product.House
 
 class TipiHouseBuilder : HouseBuilder {
 
-    private val house: House = House()
+    private var basement: String? = null
+    private var structure: String? = null
+    private var roof: String? = null
+    private var interior: String? = null
 
-    override fun buildBasement() {
-        house.setBasement("Wooden Poles")
+    override fun buildBasement(basement: String) {
+        this.basement = basement
     }
 
     override fun buildStructure() {
-        house.setStructure("Wood and Ice")
+        structure = "Wood and Ice"
     }
 
     override fun buildInterior() {
-        house.setInterior("Fire Wood")
+        roof = "Fire Wood"
     }
 
     override fun buildRoof() {
-        house.setRoof("Wood, caribou and seal skins")
+        interior = "Wood, caribou and seal skins"
     }
 
-    override fun getHouse(): House {
-        return house
+    override fun getResult(): House {
+
+        if (basement == null || structure == null || roof == null|| interior == null) {
+            throw IllegalStateException("One field is null")
+        }
+
+        return House(basement, structure, roof, interior)
     }
 
 }

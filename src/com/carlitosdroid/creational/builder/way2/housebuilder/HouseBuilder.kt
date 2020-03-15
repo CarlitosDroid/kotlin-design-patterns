@@ -4,10 +4,10 @@ import com.carlitosdroid.creational.builder.way2.product.House
 
 interface HouseBuilder {
 
-    fun buildBasement()
+    fun buildBasement(basement: String)
     fun buildStructure()
     fun buildRoof()
     fun buildInterior()
-    fun getHouse(): House
+    fun getResult(): House
 
 }
