@@ -4,7 +4,7 @@ import com.carlitosdroid.creational.builder.way2.director.HouseBuildDirector
 import com.carlitosdroid.creational.builder.way2.housebuilder.IglooHouseBuilder
 import com.carlitosdroid.creational.builder.way2.housebuilder.TipiHouseBuilder
 
-object BuilderMain {
+object Main {
     @JvmStatic
     fun main(args: Array<String>) { // write your code here
 
